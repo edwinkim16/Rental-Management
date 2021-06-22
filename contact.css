@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Libre+Baskerville:ital@1&family=Lora:wght@600&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+#contact-form {
+  min-height: 100vh;
+  background: url("./Images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: rgba(20, 29, 40, 0.8);
+  width: 50%;
+  color: #fff;
+  border-radius: 30px;
+}
+header.head > h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Crimson Text", serif;
+  color: #eb7910;
+}
+header.head > h2 {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  font-size: 2rem;
+  font-family: "Crimson Text", serif;
+}
+.input-box {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0 12px 0;
+}
+.title {
+  font-family: "Lora", serif;
+}
+.container button {
+  background: linear-gradient (to right, #f64f59/ #c471 12c2e9);
+  border: none;
+  color: #fff;
+  font-size: 1.8ren;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.5s easen-in-out;
+  width: 100%;
+  padding: 1rem;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: 2rem;
+}
+button:hover {
+  background: linear-gradient(to right, #ec2f4b, #009f);
+}
+.container input {
+  padding: 5px 5px;
+}
