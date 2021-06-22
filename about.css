@@ -1,0 +1,29 @@
+body{ width=1440px;
+    background-color:whitesmoke;
+}
+.header{
+    background-color: #0F0740;
+    left: 0px;
+    top: -7px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+.MAIN{
+    position: absolute;
+    background-color: #c4c4c4;
+    
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    flex-grow: 1;
+}
+.rent{
+    flex-grow: 2;
+}
