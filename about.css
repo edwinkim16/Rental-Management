@@ -13,12 +13,15 @@ body{ width=1440px;
 .MAIN{
     position: absolute;
     background-color: #c4c4c4;
+    display: flex;
+    flex-direction:row ;
     
 
 }
 .row{
     display: flex;
     flex-direction: row;
+    background-color: #c4c4c4;
     
 }
 .logo{
