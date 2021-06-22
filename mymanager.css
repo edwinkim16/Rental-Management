@@ -1,0 +1,113 @@
+/* font-family: 'Crimson Text', serif;
+font-family: 'Libre Baskerville', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-font-smoothing: antialiased;
+    font-family:'Crimson Text', serif;
+}
+  /* Style the nav  */
+.top{
+    width: 100%;
+    height: 60%;
+    background-color: #262326;
+    line-height: 80px;
+    z-index: 1;
+}
+label.tab{
+    color:white;
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.acc{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.tab:hover{
+    background-color: #DE830D;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    list-style: none;
+    margin: 0 50px;
+}
+nav ul li a{
+    color: white;
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+.active,a:hover{
+    color: #DE830D;
+}
+.i{
+    color: #DE830D;
+    size: 30px;
+}
+
+/* Beginning of Subnuv Section */
+
+ul.left {
+    line-height: 80%;
+    padding:  0 ;
+    float: left;
+}
+
+/* End of Subnuv Section */
+
+/* .lower{
+    width: 100%;
+    height: 20%;
+    background-color:white;
+    z-index: 1;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+.acc:hover{
+    color: #DE830D;
+}
+.side{
+   display: flex;
+}
+.sect:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column{
+    float: left;
+    padding: 10px;
+    /* height: 300px; */
+    /* width: 33.33%;
+}
+.sect1{
+    background-color: white;
+}
+.sect .column{
+    background-color: #B8AFA2;
+}
+.user{
+    font-weight: 40px;
+    font-family: 'Crimson Text', serif;
+}
+ol li{
+    list-style: none;
+    font-size: 20px;
+}
+.house{
+    float: left;
+    justify-content: space-between;
+} */ 
