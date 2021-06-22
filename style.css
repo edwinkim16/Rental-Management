@@ -1,0 +1,86 @@
+
+.slide, image{
+    opacity: 95%;
+    position: absolute;
+    
+}
+#logo{
+    position: fixed;
+   top: 30px;
+   left: 25px;
+}
+.name h1{
+    position: fixed;
+    top: 30px;
+    left: 290px;
+    display: block;
+}
+.navarea{
+    position: fixed;
+    top: 500px;
+    border: solid white;
+    background-color: #0F0740;;
+    width: 257px;
+    height: 200px;
+    left: 40px;
+    padding: 2%;
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+}
+.sign{
+    position: fixed;
+    list-style: none;
+    left: 1147px;
+    top: 100px;
+
+}
+.sign>ul>li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+#free{
+    background-color: #7CF31A;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 8%;
+    color: white;
+    font-size: 30px;
+}
+#si {
+    
+    margin-bottom: 10%;
+    background-color: #521200;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+}
+#sip{
+    margin-bottom: 10%;
+    background-color: #521200;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+}
+.user-details{
+    
+    
+    
+}
+.container{
+    background-color: aquamarine;
+}
+.title{
+    font-family: sans-serif;
+    font-weight: 1000;
+    display: flex;
+}
+.navarea>li>a{
+    color: white;
+}
