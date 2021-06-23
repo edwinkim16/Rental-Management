@@ -128,3 +128,15 @@ footer{
     color: rgb(207, 190, 190),40%;
     padding-top: 12px;
 }
+.icons{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+footer>div.icons>img{
+    width: 30px;
+    
+}
