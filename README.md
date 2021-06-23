@@ -14,12 +14,12 @@ perty </h3>
 This is a project that brings an ease to the property owner.They say seeing is understanding. Basically the website explanation is in the screenshots below:
 ***
 ## Screenshots
-![home page](img/home.png)
+![home page](assets/home.png)
 ---
 The home page contains a sign up form for any new landlord. It also contain the links to the rest of the pages when clicked it opens thedestination clicked
-![My Manager page](img/mymanager.png)
-![Contact page](img/contact.png)
-![About page](img/about.png)
+![My Manager page](assets/mymanager.png)
+![Contact page](assets/contact.png)
+![About page](assets/about.png)
 
 
 
