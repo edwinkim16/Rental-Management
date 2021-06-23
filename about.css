@@ -53,8 +53,9 @@ body{
     width: 300px;
 }
 .img-3{
-    width: 300px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
+    margin-right: 20px;
 }
 .row-1{
     width: 350px;
@@ -81,7 +82,8 @@ body{
 .values{
     background-color: #0f0740;
     width: 300px;
-    height: 200px;
+    height: 30px;
+    flex-grow: 1;
 }
 .val{
     color: white;
@@ -96,8 +98,22 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+#val{
+    background-color: #0f0740;
+    height: 150px;
+    margin-right: 20px;
+    
+}
 .columns{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.visionmission{
+    background-color: #0f0740;
     flex-grow: 1;
+    color: white;
+    text-align: center;
+    height: 454px;
+    margin-left: 20px;
 }
