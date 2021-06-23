@@ -9,6 +9,7 @@ font-family: 'Libre Baskerville', serif; */
     -moz-box-sizing: border-box;
     -moz-font-smoothing: antialiased;
     font-family:'Crimson Text', serif;
+    font-size: 25px;
 }
   /* Style the nav  */
 .top{
@@ -58,6 +59,13 @@ nav ul li a{
 }
 
 /* Beginning of Subnuv Section */
+.subnav{
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+}
+.subnav:hover{
+    color: #DE830D;
+}
 
 ul.left {
     line-height: 80%;
@@ -67,42 +75,54 @@ ul.left {
 
 /* End of Subnuv Section */
 
-/* .lower{
+.lower{
     width: 100%;
     height: 20%;
     background-color:white;
     z-index: 1;
-    color: black;
+    /* color: black; */
     font-family: 'Times New Roman', Times, serif;
     font-size: 27px;
 }
-.acc:hover{
+.left li:hover{
     color: #DE830D;
 }
-.side{
+.right{
    display: flex;
+}
+.right li:hover{
+    color: #DE830D;
 }
 .sect:after{
     content: "";
     display: table;
     clear: both;
 }
+.all{
+    align-content: flex-start;
+    justify-content: left;
+}
 .column{
     float: left;
     padding: 10px;
-    /* height: 300px; */
-    /* width: 33.33%;
+    height: 300px;
+     width: 33.33%;
+     display: flex;
+     justify-content: start;
+}
+.sect .column{
+     background-color: #B8AFA2; 
+     height:500px;
 }
 .sect1{
     background-color: white;
+    float: left;
+    box-shadow:1px solid #DE830D;
 }
-.sect .column{
-    background-color: #B8AFA2;
-}
-.user{
+/* .user{
     font-weight: 40px;
     font-family: 'Crimson Text', serif;
-}
+} */
 ol li{
     list-style: none;
     font-size: 20px;
@@ -110,4 +130,93 @@ ol li{
 .house{
     float: left;
     justify-content: space-between;
-} */ 
+}
+.bal{
+    float: right;
+    justify-content: space-between;
+} 
+.sect2{
+    background-color: white;
+}
+.task p{
+    color: blue;
+}
+.task p:hover{
+    color: #B8AFA2;
+}
+.sect3{
+    background-color: white;
+}
+#top{
+    background-color: maroon;
+    text-decoration: white;
+    margin: 2%;
+    border: 2px solid maroon;
+    border-radius: 20px;
+    color: white;
+    height: 90px;
+}
+#mid{
+    background-color: maroon;
+    text-decoration: white;
+    margin-bottom: 2%;
+    border: 2px solid maroon;
+    border-radius: 20px;
+    color: white;
+    height: 90px;
+    text-align: center;
+}
+#low{
+    background-color: maroon;
+    text-decoration: white;
+    border: 2px solid maroon;
+    border-radius: 20px;
+    color: white;
+    height: 90px;
+}
+div#balance.list>div.title>h2 {
+    background-color: white;
+    border-bottom:  #B8AFA2;
+    border-width: 0 0 0.3rem ;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div#balance.list>div.list>ul>div.class {
+    display: flex;
+    background-color: white;
+    border-bottom:  #B8AFA2;
+    border-width: 0 0 0.3rem ;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+div#balance.list>div.list>ul>div.class>li.part {
+    padding-right: 150px;
+}
+div.sect3>div.title>h2 {
+    display: flex;
+    background-color: white;
+    border-bottom:  #B8AFA2;
+    border-width: 0 0 0.3rem ;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+/* div.sect3>div.list>ul>div.class> {
+    display: flex; 
+    flex-direction: row;
+    float: left;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+}
+div.sect3>div.list>ul>div.class>li.part {
+    padding-right: 100px;
+} */
+.task h3{
+    color: #cd760f;
+}
