@@ -29,7 +29,7 @@ body{
 }
 .img-1{
     float: left;
-    width: 200px;
+    width: 150px;
     height: 100px;
     padding-left: 30px;
     padding-top: 30px;
@@ -38,7 +38,66 @@ body{
     padding-top: 30px;
     font-weight: 700;
     font-size: 20px;
+    
+    
 }
-
-
-
+.column-1{
+    margin-top: 5px;
+    padding-left: 30px; ;
+    width: 300px;
+    color: #ee8a51;
+    font-weight: 600;
+    font-size: 20px;
+}
+.img-2{
+    width: 300px;
+}
+.img-3{
+    width: 300px;
+    height: 250px;
+}
+.row-1{
+    width: 350px;
+    flex-grow: 1;
+} 
+.row-2{
+    width: 800px;
+    flex-grow: 2;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    
+}
+.rental{
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+}
+.values{
+    background-color: #0f0740;
+    width: 300px;
+    height: 200px;
+}
+.val{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.disp{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.columns{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
