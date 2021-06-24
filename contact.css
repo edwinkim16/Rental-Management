@@ -10,6 +10,24 @@
   -o-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+.navarea{
+  position: fixed;
+  top: 500px;
+  border: solid white;
+  background-color: #0F0740;;
+  width: 257px;
+  height: 200px;
+  left: 40px;
+  padding: 2%;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 5px 20px;
+}
+.navarea>li>a{
+  color: white;
+}
 #contact-form {
   min-height: 100vh;
   background: url("./assets/alex-kotliarskyi-qbpzgqemskg-unsplash.jpg");
